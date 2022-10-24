@@ -1,4 +1,4 @@
-function addUpTo(...n) {
+function addTotalNumber(...n) {
     let total = 1;
     let val = [...n];
     
@@ -9,6 +9,18 @@ function addUpTo(...n) {
     return total
 }
 
-let addedValues = addUpTo(2, 2, 2, 2, 1)
-let addedValues2 = addUpTo(5, 4, 8, 5)
-console.log(addedValues2);
+function addUpTo(n) {
+    let total = 0;
+    
+    while (n) {
+        total += n--
+    }
+    
+    return total
+}
+
+let addedValues = addUpTo(7)
+let addedValues2 = addTotalNumber(5, 4, 8, 5)
+
+console.log('addUpTo', addedValues);
+console.log('addTotalNumber', addedValues2);
