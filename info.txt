@@ -1,1 +1,1 @@
-2 => 2. Timing Our Code.mp4
+2 => 6. Simplifying Big O Expressions.mp4

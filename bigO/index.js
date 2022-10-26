@@ -19,8 +19,12 @@ function addUpTo(n) {
     return total
 }
 
-let addedValues = addUpTo(7)
-let addedValues2 = addTotalNumber(5, 4, 8, 5)
+
+// let addedValues2 = addTotalNumber(5, 4, 8, 5)
+// console.log('addTotalNumber', addedValues2);
+
+console.time();
+let addedValues = addUpTo(10000000)
+console.timeEnd();
 
 console.log('addUpTo', addedValues);
-console.log('addTotalNumber', addedValues2);
